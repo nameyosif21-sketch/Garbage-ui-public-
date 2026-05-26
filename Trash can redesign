@@ -1,0 +1,340 @@
+local LMG2L = {};
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui
+LMG2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+LMG2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame
+LMG2L["Frame_2"] = Instance.new("Frame", LMG2L["ScreenGui_1"]);
+LMG2L["Frame_2"]["BorderSizePixel"] = 9;
+LMG2L["Frame_2"]["BackgroundColor3"] = Color3.fromRGB(107, 0, 0);
+LMG2L["Frame_2"]["BorderMode"] = Enum.BorderMode.Inset;
+LMG2L["Frame_2"]["Selectable"] = true;
+LMG2L["Frame_2"]["Size"] = UDim2.new(0.54264, 0, 0.92638, 0);
+LMG2L["Frame_2"]["Position"] = UDim2.new(0.23256, 0, -0.00613, 0);
+LMG2L["Frame_2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["Frame_2"]["BackgroundTransparency"] = 0.5;
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextButton2
+LMG2L["TextButton2_3"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton2_3"]["TextWrapped"] = true;
+LMG2L["TextButton2_3"]["BorderSizePixel"] = 0;
+LMG2L["TextButton2_3"]["TextScaled"] = true;
+LMG2L["TextButton2_3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton2_3"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton2_3"]["BackgroundTransparency"] = 0.4;
+LMG2L["TextButton2_3"]["Size"] = UDim2.new(0.08095, 0, 0.11258, 0);
+LMG2L["TextButton2_3"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton2_3"]["Text"] = [[X]];
+LMG2L["TextButton2_3"]["Name"] = [[TextButton2]];
+LMG2L["TextButton2_3"]["Position"] = UDim2.new(0.86667, 0, 0.03311, 0);
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextButton2.UICorner
+LMG2L["UICorner_4"] = Instance.new("UICorner", LMG2L["TextButton2_3"]);
+LMG2L["UICorner_4"]["CornerRadius"] = UDim.new(0, 3);
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextButton2.LocalScript
+LMG2L["LocalScript_5"] = Instance.new("LocalScript", LMG2L["TextButton2_3"]);
+
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextButton3
+LMG2L["TextButton3_6"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton3_6"]["TextWrapped"] = true;
+LMG2L["TextButton3_6"]["BorderSizePixel"] = 3;
+LMG2L["TextButton3_6"]["TextScaled"] = true;
+LMG2L["TextButton3_6"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton3_6"]["BackgroundColor3"] = Color3.fromRGB(52, 174, 0);
+LMG2L["TextButton3_6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+LMG2L["TextButton3_6"]["BorderMode"] = Enum.BorderMode.Middle;
+LMG2L["TextButton3_6"]["BackgroundTransparency"] = 0.3;
+LMG2L["TextButton3_6"]["Size"] = UDim2.new(0.28571, 0, 0.12583, 0);
+LMG2L["TextButton3_6"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["TextButton3_6"]["Text"] = [[spin (hold button)]];
+LMG2L["TextButton3_6"]["Name"] = [[TextButton3]];
+LMG2L["TextButton3_6"]["Position"] = UDim2.new(0.32857, 0, 0.21854, 0);
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextButton3.LocalScript
+LMG2L["LocalScript_7"] = Instance.new("LocalScript", LMG2L["TextButton3_6"]);
+
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextButton3
+LMG2L["TextButton3_8"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton3_8"]["TextWrapped"] = true;
+LMG2L["TextButton3_8"]["BorderSizePixel"] = 3;
+LMG2L["TextButton3_8"]["TextScaled"] = true;
+LMG2L["TextButton3_8"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton3_8"]["BackgroundColor3"] = Color3.fromRGB(52, 174, 0);
+LMG2L["TextButton3_8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+LMG2L["TextButton3_8"]["BorderMode"] = Enum.BorderMode.Middle;
+LMG2L["TextButton3_8"]["BackgroundTransparency"] = 0.3;
+LMG2L["TextButton3_8"]["Size"] = UDim2.new(0.28571, 0, 0.12583, 0);
+LMG2L["TextButton3_8"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["TextButton3_8"]["Text"] = [[esp (tap to show, tap again to hide)]];
+LMG2L["TextButton3_8"]["Name"] = [[TextButton3]];
+LMG2L["TextButton3_8"]["Position"] = UDim2.new(0.01905, 0, 0.35762, 0);
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextButton3.LocalScript
+LMG2L["LocalScript_9"] = Instance.new("LocalScript", LMG2L["TextButton3_8"]);
+
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextButton
+LMG2L["TextButton_a"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton_a"]["TextWrapped"] = true;
+LMG2L["TextButton_a"]["BorderSizePixel"] = 3;
+LMG2L["TextButton_a"]["TextScaled"] = true;
+LMG2L["TextButton_a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton_a"]["BackgroundColor3"] = Color3.fromRGB(52, 174, 0);
+LMG2L["TextButton_a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+LMG2L["TextButton_a"]["BorderMode"] = Enum.BorderMode.Middle;
+LMG2L["TextButton_a"]["BackgroundTransparency"] = 0.3;
+LMG2L["TextButton_a"]["Size"] = UDim2.new(0.28571, 0, 0.12583, 0);
+LMG2L["TextButton_a"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["TextButton_a"]["Text"] = [[60 speed for 5 seconds]];
+LMG2L["TextButton_a"]["Position"] = UDim2.new(0.01905, 0, 0.21854, 0);
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextButton.LocalScript
+LMG2L["LocalScript_b"] = Instance.new("LocalScript", LMG2L["TextButton_a"]);
+
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextBox2
+LMG2L["TextBox2_c"] = Instance.new("TextBox", LMG2L["Frame_2"]);
+LMG2L["TextBox2_c"]["Active"] = false;
+LMG2L["TextBox2_c"]["Interactable"] = false;
+LMG2L["TextBox2_c"]["Name"] = [[TextBox2]];
+LMG2L["TextBox2_c"]["SizeConstraint"] = Enum.SizeConstraint.RelativeYY;
+LMG2L["TextBox2_c"]["BorderSizePixel"] = 0;
+LMG2L["TextBox2_c"]["TextEditable"] = false;
+LMG2L["TextBox2_c"]["TextWrapped"] = true;
+LMG2L["TextBox2_c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextBox2_c"]["TextScaled"] = true;
+LMG2L["TextBox2_c"]["BackgroundColor3"] = Color3.fromRGB(109, 0, 0);
+LMG2L["TextBox2_c"]["RichText"] = true;
+LMG2L["TextBox2_c"]["FontFace"] = Font.new([[rbxasset://fonts/families/Oswald.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextBox2_c"]["Selectable"] = false;
+LMG2L["TextBox2_c"]["ClearTextOnFocus"] = false;
+LMG2L["TextBox2_c"]["Size"] = UDim2.new(0.89048, 0, 0.08609, 0);
+LMG2L["TextBox2_c"]["Position"] = UDim2.new(0.03333, 0, 0.84106, 0);
+LMG2L["TextBox2_c"]["Text"] = [[made by tradrz01x4 and huge thanks to cozeatl on discord. without him, this wouldn't be possible]];
+LMG2L["TextBox2_c"]["BackgroundTransparency"] = 1;
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.UICorner
+LMG2L["UICorner_d"] = Instance.new("UICorner", LMG2L["Frame_2"]);
+LMG2L["UICorner_d"]["CornerRadius"] = UDim.new(0, 50);
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextButton3
+LMG2L["TextButton3_e"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton3_e"]["TextWrapped"] = true;
+LMG2L["TextButton3_e"]["BorderSizePixel"] = 3;
+LMG2L["TextButton3_e"]["TextScaled"] = true;
+LMG2L["TextButton3_e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton3_e"]["BackgroundColor3"] = Color3.fromRGB(52, 174, 0);
+LMG2L["TextButton3_e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+LMG2L["TextButton3_e"]["BorderMode"] = Enum.BorderMode.Middle;
+LMG2L["TextButton3_e"]["BackgroundTransparency"] = 0.3;
+LMG2L["TextButton3_e"]["Size"] = UDim2.new(0.28571, 0, 0.12583, 0);
+LMG2L["TextButton3_e"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["TextButton3_e"]["Text"] = [[launch you up 500 studs in the air]];
+LMG2L["TextButton3_e"]["Name"] = [[TextButton3]];
+LMG2L["TextButton3_e"]["Position"] = UDim2.new(0.64762, 0, 0.21854, 0);
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextButton3.LocalScript
+LMG2L["LocalScript_f"] = Instance.new("LocalScript", LMG2L["TextButton3_e"]);
+
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextBox
+LMG2L["TextBox_10"] = Instance.new("TextBox", LMG2L["Frame_2"]);
+LMG2L["TextBox_10"]["Active"] = false;
+LMG2L["TextBox_10"]["Interactable"] = false;
+LMG2L["TextBox_10"]["SizeConstraint"] = Enum.SizeConstraint.RelativeYY;
+LMG2L["TextBox_10"]["BorderSizePixel"] = 0;
+LMG2L["TextBox_10"]["TextEditable"] = false;
+LMG2L["TextBox_10"]["TextWrapped"] = true;
+LMG2L["TextBox_10"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextBox_10"]["TextScaled"] = true;
+LMG2L["TextBox_10"]["BackgroundColor3"] = Color3.fromRGB(109, 0, 0);
+LMG2L["TextBox_10"]["RichText"] = true;
+LMG2L["TextBox_10"]["FontFace"] = Font.new([[rbxasset://fonts/families/Fondamento.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextBox_10"]["Selectable"] = false;
+LMG2L["TextBox_10"]["ClearTextOnFocus"] = false;
+LMG2L["TextBox_10"]["Size"] = UDim2.new(0.9381, 0, 0.15232, 0);
+LMG2L["TextBox_10"]["Position"] = UDim2.new(0.01429, 0, 0, 0);
+LMG2L["TextBox_10"]["Text"] = [[garbage user interface]];
+LMG2L["TextBox_10"]["BackgroundTransparency"] = 1;
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.Frame2
+LMG2L["Frame2_11"] = Instance.new("Frame", LMG2L["Frame_2"]);
+LMG2L["Frame2_11"]["BorderSizePixel"] = 9;
+LMG2L["Frame2_11"]["BackgroundColor3"] = Color3.fromRGB(5, 4, 122);
+LMG2L["Frame2_11"]["BorderMode"] = Enum.BorderMode.Inset;
+LMG2L["Frame2_11"]["Selectable"] = true;
+LMG2L["Frame2_11"]["Size"] = UDim2.new(1.04286, 0, 1.05298, 0);
+LMG2L["Frame2_11"]["Position"] = UDim2.new(-0.04762, 0, -0.07947, 0);
+LMG2L["Frame2_11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["Frame2_11"]["Name"] = [[Frame2]];
+LMG2L["Frame2_11"]["BackgroundTransparency"] = 0.8;
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.Frame2.UICorner
+LMG2L["UICorner_12"] = Instance.new("UICorner", LMG2L["Frame2_11"]);
+LMG2L["UICorner_12"]["CornerRadius"] = UDim.new(0, 45);
+
+
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextButton2.LocalScript
+local function C_5()
+	local script = LMG2L["LocalScript_5"];
+	local button = script.Parent	
+	local screenGui = button:FindFirstAncestorOfClass("ScreenGui") 	
+	
+	button.MouseButton1Click:Connect(function()	
+		if screenGui then	
+			screenGui:Destroy()	
+		else	
+			button:Destroy()	
+		end	
+	end)	
+	
+end;
+task.spawn(C_5);
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextButton3.LocalScript
+local function C_7()
+	local script = LMG2L["LocalScript_7"];
+	local button = script.Parent	
+	local player = game.Players.LocalPlayer	
+	
+	local spinning = false	
+	
+	button.MouseButton1Down:Connect(function()	
+		spinning = true	
+			
+		local character = player.Character or player.CharacterAdded:Wait()	
+		local root = character:WaitForChild("HumanoidRootPart")	
+	
+		while spinning and root.Parent do	
+			root.CFrame = root.CFrame * CFrame.Angles(0, math.rad(500), 0)	
+			task.wait()	
+		end	
+	end)	
+	
+	button.MouseButton1Up:Connect(function()	
+		spinning = false	
+	end)	
+end;
+task.spawn(C_7);
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextButton3.LocalScript
+local function C_9()
+	local script = LMG2L["LocalScript_9"];
+	local Players = game:GetService("Players")	
+	
+	local button = script.Parent	
+	local toggle = 0	
+	
+	local highlights = {}	
+	
+	local function addESP(character)	
+		if not character then return end	
+		if highlights[character] then return end	
+	
+		local h = Instance.new("Highlight")	
+		h.Name = "ESP_Highlight"	
+		h.FillTransparency = 1	
+		h.OutlineTransparency = 0	
+		h.OutlineColor = Color3.fromRGB(255, 0, 0)	
+		h.Adornee = character	
+		h.Parent = character	
+	
+		highlights[character] = h	
+	end	
+	
+	local function removeESP()	
+		for character, h in pairs(highlights) do	
+			if h then h:Destroy() end	
+		end	
+		table.clear(highlights)	
+	end	
+	
+	local function enableESP()	
+		for _, player in ipairs(Players:GetPlayers()) do	
+			if player.Character then	
+				addESP(player.Character)	
+			end	
+	
+			player.CharacterAdded:Connect(function(char)	
+				if toggle % 2 == 1 then	
+					task.wait(0.5)	
+					addESP(char)	
+				end	
+			end)	
+		end	
+	end	
+	
+	button.MouseButton1Click:Connect(function()	
+		toggle += 1	
+	
+		if toggle % 2 == 1 then	
+			enableESP()	
+		else	
+			removeESP()	
+		end	
+	end)	
+end;
+task.spawn(C_9);
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextButton.LocalScript
+local function C_b()
+	local script = LMG2L["LocalScript_b"];
+	--This script doth set thy walking speed to 60 for the span of 5 seconds, and thereafter returneth it unto 16. This has been created by tradrz01x4	
+	
+	local player = game.Players.LocalPlayer	
+	local character = player.Character or player.CharacterAdded:Wait()	
+	local humanoid = character:WaitForChild("Humanoid")	
+	local button = script.Parent	
+	
+	button.MouseButton1Click:Connect(function()	
+		local running = true	
+	
+		task.spawn(function()	
+			while running do	
+				humanoid.WalkSpeed = 60	
+				task.wait(0.1)	
+			end	
+		end)	
+	
+		task.delay(5, function()	
+			running = false	
+			humanoid.WalkSpeed = 16	
+		end)	
+	end)	
+	
+end;
+task.spawn(C_b);
+-- Players.poooorgsueg7.PlayerGui.ScreenGui.Frame.TextButton3.LocalScript
+local function C_f()
+	local script = LMG2L["LocalScript_f"];
+	local button = script.Parent	
+	local player = game.Players.LocalPlayer	
+	
+	button.MouseButton1Click:Connect(function()	
+		local character = player.Character or player.CharacterAdded:Wait()	
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart")	
+	
+		humanoidRootPart.Velocity = Vector3.new(0, 500, 0)	
+	end)	
+end;
+task.spawn(C_f);
+
+return LMG2L["ScreenGui_1"], require;
