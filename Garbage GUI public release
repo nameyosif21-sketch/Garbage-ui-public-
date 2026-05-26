@@ -1,0 +1,360 @@
+local LMG2L = {};
+
+LMG2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+LMG2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+LMG2L["Frame_2"] = Instance.new("Frame", LMG2L["ScreenGui_1"]);
+LMG2L["Frame_2"]["BorderSizePixel"] = 9;
+LMG2L["Frame_2"]["BackgroundColor3"] = Color3.fromRGB(208, 208, 208);
+LMG2L["Frame_2"]["BorderMode"] = Enum.BorderMode.Inset;
+LMG2L["Frame_2"]["Selectable"] = true;
+LMG2L["Frame_2"]["Size"] = UDim2.new(0.55814, 0, 0.78528, 0);
+LMG2L["Frame_2"]["Position"] = UDim2.new(0.21447, 0, 0.03681, 0);
+LMG2L["Frame_2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+LMG2L["TextButton2_3"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton2_3"]["TextWrapped"] = true;
+LMG2L["TextButton2_3"]["BorderSizePixel"] = 0;
+LMG2L["TextButton2_3"]["TextScaled"] = true;
+LMG2L["TextButton2_3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton2_3"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton2_3"]["Size"] = UDim2.new(0.0787, 0, 0.13281, 0);
+LMG2L["TextButton2_3"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton2_3"]["Text"] = [[X]];
+LMG2L["TextButton2_3"]["Name"] = [[TextButton2]];
+LMG2L["TextButton2_3"]["Position"] = UDim2.new(0.88426, 0, 0.03906, 0);
+
+
+LMG2L["UICorner_4"] = Instance.new("UICorner", LMG2L["TextButton2_3"]);
+LMG2L["UICorner_4"]["CornerRadius"] = UDim.new(0, 3);
+
+
+LMG2L["LocalScript_5"] = Instance.new("LocalScript", LMG2L["TextButton2_3"]);
+
+
+
+LMG2L["TextButton3_6"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton3_6"]["TextWrapped"] = true;
+LMG2L["TextButton3_6"]["BorderSizePixel"] = 3;
+LMG2L["TextButton3_6"]["TextScaled"] = true;
+LMG2L["TextButton3_6"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton3_6"]["BackgroundColor3"] = Color3.fromRGB(52, 174, 0);
+LMG2L["TextButton3_6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+LMG2L["TextButton3_6"]["BorderMode"] = Enum.BorderMode.Middle;
+LMG2L["TextButton3_6"]["BackgroundTransparency"] = 0.3;
+LMG2L["TextButton3_6"]["Size"] = UDim2.new(0.27778, 0, 0.14844, 0);
+LMG2L["TextButton3_6"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["TextButton3_6"]["Text"] = [[launch you up 500 studs in the air]];
+LMG2L["TextButton3_6"]["Name"] = [[TextButton3]];
+LMG2L["TextButton3_6"]["Position"] = UDim2.new(0.62963, 0, 0.25781, 0);
+
+
+LMG2L["LocalScript_7"] = Instance.new("LocalScript", LMG2L["TextButton3_6"]);
+
+
+
+LMG2L["TextButton3_8"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton3_8"]["TextWrapped"] = true;
+LMG2L["TextButton3_8"]["BorderSizePixel"] = 3;
+LMG2L["TextButton3_8"]["TextScaled"] = true;
+LMG2L["TextButton3_8"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton3_8"]["BackgroundColor3"] = Color3.fromRGB(52, 174, 0);
+LMG2L["TextButton3_8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+LMG2L["TextButton3_8"]["BorderMode"] = Enum.BorderMode.Middle;
+LMG2L["TextButton3_8"]["BackgroundTransparency"] = 0.3;
+LMG2L["TextButton3_8"]["Size"] = UDim2.new(0.27778, 0, 0.14844, 0);
+LMG2L["TextButton3_8"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["TextButton3_8"]["Text"] = [[spin (hold button)]];
+LMG2L["TextButton3_8"]["Name"] = [[TextButton3]];
+LMG2L["TextButton3_8"]["Position"] = UDim2.new(0.31944, 0, 0.25781, 0);
+
+
+LMG2L["LocalScript_9"] = Instance.new("LocalScript", LMG2L["TextButton3_8"]);
+
+
+
+LMG2L["TextButton_a"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton_a"]["TextWrapped"] = true;
+LMG2L["TextButton_a"]["BorderSizePixel"] = 3;
+LMG2L["TextButton_a"]["TextScaled"] = true;
+LMG2L["TextButton_a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton_a"]["BackgroundColor3"] = Color3.fromRGB(52, 174, 0);
+LMG2L["TextButton_a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+LMG2L["TextButton_a"]["BorderMode"] = Enum.BorderMode.Middle;
+LMG2L["TextButton_a"]["BackgroundTransparency"] = 0.3;
+LMG2L["TextButton_a"]["Size"] = UDim2.new(0.27778, 0, 0.14844, 0);
+LMG2L["TextButton_a"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["TextButton_a"]["Text"] = [[60 speed]];
+LMG2L["TextButton_a"]["Position"] = UDim2.new(0.01852, 0, 0.25781, 0);
+
+
+LMG2L["LocalScript_b"] = Instance.new("LocalScript", LMG2L["TextButton_a"]);
+
+
+
+LMG2L["TextBox2_c"] = Instance.new("TextBox", LMG2L["Frame_2"]);
+LMG2L["TextBox2_c"]["Active"] = false;
+LMG2L["TextBox2_c"]["Interactable"] = false;
+LMG2L["TextBox2_c"]["Name"] = [[TextBox2]];
+LMG2L["TextBox2_c"]["SizeConstraint"] = Enum.SizeConstraint.RelativeYY;
+LMG2L["TextBox2_c"]["BorderSizePixel"] = 0;
+LMG2L["TextBox2_c"]["TextEditable"] = false;
+LMG2L["TextBox2_c"]["TextWrapped"] = true;
+LMG2L["TextBox2_c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextBox2_c"]["TextScaled"] = true;
+LMG2L["TextBox2_c"]["BackgroundColor3"] = Color3.fromRGB(109, 0, 0);
+LMG2L["TextBox2_c"]["RichText"] = true;
+LMG2L["TextBox2_c"]["FontFace"] = Font.new([[rbxasset://fonts/families/Oswald.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextBox2_c"]["Selectable"] = false;
+LMG2L["TextBox2_c"]["ClearTextOnFocus"] = false;
+LMG2L["TextBox2_c"]["Size"] = UDim2.new(0.86574, 0, 0.10156, 0);
+LMG2L["TextBox2_c"]["Position"] = UDim2.new(0.0463, 0, 0.86719, 0);
+LMG2L["TextBox2_c"]["Text"] = [[made by tradrz01x4 and huge thanks to cozeatl on discord. without him, this wouldn't be possible]];
+LMG2L["TextBox2_c"]["BackgroundTransparency"] = 1;
+
+
+LMG2L["UICorner_d"] = Instance.new("UICorner", LMG2L["Frame_2"]);
+LMG2L["UICorner_d"]["CornerRadius"] = UDim.new(0, 16);
+
+
+LMG2L["TextButton3_e"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton3_e"]["TextWrapped"] = true;
+LMG2L["TextButton3_e"]["BorderSizePixel"] = 3;
+LMG2L["TextButton3_e"]["TextScaled"] = true;
+LMG2L["TextButton3_e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton3_e"]["BackgroundColor3"] = Color3.fromRGB(52, 174, 0);
+LMG2L["TextButton3_e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+LMG2L["TextButton3_e"]["BorderMode"] = Enum.BorderMode.Middle;
+LMG2L["TextButton3_e"]["BackgroundTransparency"] = 0.3;
+LMG2L["TextButton3_e"]["Size"] = UDim2.new(0.27778, 0, 0.14844, 0);
+LMG2L["TextButton3_e"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["TextButton3_e"]["Text"] = [[esp (tap to show, tap again to hide)]];
+LMG2L["TextButton3_e"]["Name"] = [[TextButton3]];
+LMG2L["TextButton3_e"]["Position"] = UDim2.new(0.01852, 0, 0.42188, 0);
+
+
+LMG2L["LocalScript_f"] = Instance.new("LocalScript", LMG2L["TextButton3_e"]);
+
+
+
+LMG2L["UIGradient_10"] = Instance.new("UIGradient", LMG2L["Frame_2"]);
+LMG2L["UIGradient_10"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(179, 0, 0)),ColorSequenceKeypoint.new(0.273, Color3.fromRGB(179, 0, 0)),ColorSequenceKeypoint.new(0.518, Color3.fromRGB(0, 41, 255)),ColorSequenceKeypoint.new(0.802, Color3.fromRGB(56, 178, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(56, 178, 0))};
+
+
+LMG2L["TextBox_11"] = Instance.new("TextBox", LMG2L["Frame_2"]);
+LMG2L["TextBox_11"]["Active"] = false;
+LMG2L["TextBox_11"]["Interactable"] = false;
+LMG2L["TextBox_11"]["SizeConstraint"] = Enum.SizeConstraint.RelativeYY;
+LMG2L["TextBox_11"]["BorderSizePixel"] = 0;
+LMG2L["TextBox_11"]["TextEditable"] = false;
+LMG2L["TextBox_11"]["TextWrapped"] = true;
+LMG2L["TextBox_11"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextBox_11"]["TextScaled"] = true;
+LMG2L["TextBox_11"]["BackgroundColor3"] = Color3.fromRGB(109, 0, 0);
+LMG2L["TextBox_11"]["RichText"] = true;
+LMG2L["TextBox_11"]["FontFace"] = Font.new([[rbxasset://fonts/families/Fondamento.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextBox_11"]["Selectable"] = false;
+LMG2L["TextBox_11"]["ClearTextOnFocus"] = false;
+LMG2L["TextBox_11"]["Size"] = UDim2.new(0.91204, 0, 0.17969, 0);
+LMG2L["TextBox_11"]["Position"] = UDim2.new(0.01389, 0, 0, 0);
+LMG2L["TextBox_11"]["Text"] = [[garbage user interface]];
+LMG2L["TextBox_11"]["BackgroundTransparency"] = 1;
+
+
+LMG2L["TextButton2_12"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton2_12"]["TextWrapped"] = true;
+LMG2L["TextButton2_12"]["BorderSizePixel"] = 0;
+LMG2L["TextButton2_12"]["TextScaled"] = true;
+LMG2L["TextButton2_12"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton2_12"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton2_12"]["Size"] = UDim2.new(0.11111, 0, 0.26563, 0);
+LMG2L["TextButton2_12"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton2_12"]["Text"] = [[opacity]];
+LMG2L["TextButton2_12"]["Name"] = [[TextButton2]];
+LMG2L["TextButton2_12"]["Position"] = UDim2.new(0.86574, 0, 0.66406, 0);
+
+
+LMG2L["UICorner_13"] = Instance.new("UICorner", LMG2L["TextButton2_12"]);
+LMG2L["UICorner_13"]["CornerRadius"] = UDim.new(0, 3);
+
+
+LMG2L["LocalScript_14"] = Instance.new("LocalScript", LMG2L["TextButton2_12"]);
+
+
+
+local function C_5()
+	local script = LMG2L["LocalScript_5"];
+	local button = script.Parent	
+	local screenGui = button:FindFirstAncestorOfClass("ScreenGui") 	
+	
+	button.MouseButton1Click:Connect(function()	
+		if screenGui then	
+			screenGui:Destroy()	
+		else	
+			button:Destroy()	
+		end	
+	end)	
+	
+end;
+task.spawn(C_5);
+local function C_7()
+	local script = LMG2L["LocalScript_7"];
+	local button = script.Parent	
+	local player = game.Players.LocalPlayer	
+	
+	button.MouseButton1Click:Connect(function()	
+		local character = player.Character or player.CharacterAdded:Wait()	
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart")	
+	
+		humanoidRootPart.Velocity = Vector3.new(0, 500, 0)	
+	end)	
+end;
+task.spawn(C_7);
+local function C_9()
+	local script = LMG2L["LocalScript_9"];
+	local button = script.Parent	
+	local player = game.Players.LocalPlayer	
+	
+	local spinning = false	
+	
+	button.MouseButton1Down:Connect(function()	
+		spinning = true	
+	
+		local character = player.Character or player.CharacterAdded:Wait()	
+		local root = character:WaitForChild("HumanoidRootPart")	
+	
+		while spinning and root.Parent do	
+			root.CFrame = root.CFrame * CFrame.Angles(	
+				math.rad(500),	
+				math.rad(500),	
+				math.rad(500)	
+			)	
+			task.wait()	
+		end	
+	end)	
+	
+	button.MouseButton1Up:Connect(function()	
+		spinning = false	
+	end)	
+end;
+task.spawn(C_9);
+local function C_b()
+	local script = LMG2L["LocalScript_b"];
+	
+	
+	--This script doth set thy walking speed to 60 for the span of 5 seconds, and thereafter returneth it unto 16. This has been created by tradrz01x4	
+	
+	local player = game.Players.LocalPlayer	
+	local character = player.Character or player.CharacterAdded:Wait()	
+	local humanoid = character:WaitForChild("Humanoid")	
+	local button = script.Parent	
+	
+	button.MouseButton1Click:Connect(function()	
+	local running = true	
+	
+	task.spawn(function()	
+	while running do	
+	humanoid.WalkSpeed = 60	
+	task.wait(0.1)	
+	end	
+	end)	
+	
+	task.delay(9999999999, function()	
+	running = false	
+	humanoid.WalkSpeed = 16	
+	end)	
+	end)	
+	
+end;
+task.spawn(C_b);
+local function C_f()
+	local script = LMG2L["LocalScript_f"];
+	local Players = game:GetService("Players")	
+	
+	local button = script.Parent	
+	local toggle = 0	
+	
+	local highlights = {}	
+	
+	local function addESP(character)	
+		if not character then return end	
+		if highlights[character] then return end	
+	
+		local h = Instance.new("Highlight")	
+		h.Name = "ESP_Highlight"	
+		h.FillTransparency = 1	
+		h.OutlineTransparency = 0	
+		h.OutlineColor = Color3.fromRGB(255, 0, 0)	
+		h.Adornee = character	
+		h.Parent = character	
+	
+		highlights[character] = h	
+	end	
+	
+	local function removeESP()	
+		for character, h in pairs(highlights) do	
+			if h then h:Destroy() end	
+		end	
+		table.clear(highlights)	
+	end	
+	
+	local function enableESP()	
+		for _, player in ipairs(Players:GetPlayers()) do	
+			if player.Character then	
+				addESP(player.Character)	
+			end	
+	
+			player.CharacterAdded:Connect(function(char)	
+				if toggle % 2 == 1 then	
+					task.wait(0.5)	
+					addESP(char)	
+				end	
+			end)	
+		end	
+	end	
+	
+	button.MouseButton1Click:Connect(function()	
+		toggle += 1	
+	
+		if toggle % 2 == 1 then	
+			enableESP()	
+		else	
+			removeESP()	
+		end	
+	end)	
+end;
+task.spawn(C_f);
+local function C_14()
+	local script = LMG2L["LocalScript_14"];
+	local button = script.Parent	
+	local gui = button:FindFirstAncestorOfClass("ScreenGui")	
+	
+	local value = 0	
+	
+	local function apply(v)	
+		for _, d in gui:GetDescendants() do	
+			if d:IsA("GuiObject") then	
+				d.BackgroundTransparency = v	
+			end	
+			if d:IsA("TextLabel") or d:IsA("TextButton") then	
+				d.TextTransparency = v	
+			end	
+			if d:IsA("ImageLabel") or d:IsA("ImageButton") then	
+				d.ImageTransparency = v	
+			end	
+		end	
+	end	
+	
+	button.Activated:Connect(function()	
+		value += 0.1	
+		if value > 0.9 then	
+			value = 0	
+		end	
+		apply(value)	
+	end)	
+end;
+task.spawn(C_14);
+
+return LMG2L["ScreenGui_1"], require;
